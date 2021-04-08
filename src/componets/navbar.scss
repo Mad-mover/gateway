@@ -1,0 +1,32 @@
+.navbar{
+  background-color: #444;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  font-size: large;
+  color: #fff;
+
+  .logo{
+    color: rgb(54, 187, 21);
+    font-size: larger;
+  }
+
+  .more{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    span{
+      &:hover{
+        cursor: pointer;
+        color: rgb(43, 168, 226);
+        transform: scale(1.1);
+      }
+    }
+  }
+}
